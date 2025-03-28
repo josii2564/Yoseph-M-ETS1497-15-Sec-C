@@ -133,3 +133,68 @@ This Python script demonstrates the use of the `str.find()` method to locate the
 ```python
 ["hello world", "python programming", "find method example"]
 Substring to search: "o"
+
+
+
+                          
+                           for str.index method
+
+## Overview
+This Python script demonstrates the use of the `str.index()` method to locate the index of the first occurrence of a specified substring within a list of strings. If the substring is not found, the script raises a `ValueError` and provides a message indicating where it couldn't be found.
+
+## Features
+- Accepts a list of strings and a substring to search for.
+- Returns a list of indices corresponding to the position of the substring's first occurrence in each string.
+- Handles cases where the substring is not found and provides meaningful messages.
+
+## Usage
+1. Provide a list of strings and the substring to search for to the `index_substrings` function.
+2. Run the script to see the indices of the substring's first occurrence or meaningful messages for strings where the substring is absent.
+
+### Example Input
+```python
+["hello world", "python programming", "index method example"]
+Substring to search: "o"
+                       
+
+
+
+                       for str.startswith method
+
+## Overview
+This Python script demonstrates the use of the `str.startswith()` method to check if each string in a list starts with a given prefix. The script returns a list of boolean values (True or False) indicating the result for each string.
+
+## Features
+- Takes a list of strings and a prefix as input.
+- Returns a list of boolean values to indicate whether each string starts with the specified prefix.
+
+## Usage
+1. Provide a list of strings and the prefix to check for to the `check_start` function.
+2. Run the script to see which strings start with the given prefix.
+
+### Example Input
+```python
+["apple pie", "banana split", "apricot tart", "peach cobbler"]
+Prefix to check: "ap" 
+
+
+
+                        
+                        for str.endswith method
+
+## Overview
+This Python script demonstrates the use of the `str.endswith()` method to check if each string in a list ends with a given suffix. The script returns a list of boolean values (True or False) indicating the result for each string.
+
+## Features
+- Accepts a list of strings and a suffix to check.
+- Returns a list of boolean values to indicate whether each string ends with the specified suffix.
+
+## Usage
+1. Provide a list of strings and the suffix to check for to the `check_suffix` function.
+2. Run the script to see which strings end with the given suffix.
+
+### Example Input
+```python
+["hello world", "python programming", "suffix method example", "ends well"]
+Suffix to check: "ing"
+
