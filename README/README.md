@@ -198,3 +198,65 @@ This Python script demonstrates the use of the `str.endswith()` method to check 
 ["hello world", "python programming", "suffix method example", "ends well"]
 Suffix to check: "ing"
 
+
+
+
+                       for str.count method
+
+## Overview
+This Python script demonstrates the use of the `str.count()` method to count the occurrences of a specific substring within a list of strings. It provides a simple and efficient way to analyze text for repeated patterns.
+
+## Features
+- Accepts a list of strings and a substring to search for.
+- Returns a list of integers representing the count of the substring in each string.
+
+## Usage
+1. Provide a list of strings and the substring to search for to the `count_substrings` function.
+2. Run the script to see the count of the substring in each string.
+
+### Example Input
+```python
+["banana", "bandana", "cabana", "banana bread"]
+Substring to search: "ana"
+                     
+
+                         
+                        
+                         for str.replace method
+
+## Overview
+This Python script demonstrates the use of the `str.replace()` method to replace occurrences of a substring within a list of strings. It enables you to modify text systematically by substituting one substring with another.
+
+## Features
+- Accepts a list of strings, an old substring, and a new substring to replace it with.
+- Returns a list of strings where all occurrences of the old substring are replaced with the new substring.
+
+## Usage
+1. Provide a list of strings, an old substring, and a new substring to the `replace_substrings` function.
+2. Run the script to see the modified list of strings.
+
+### Example Input
+```python
+["hello world", "python programming", "world of code"]
+Old substring: "world"
+New substring: "universe"
+                    
+
+
+
+                            for str.strip method
+
+## Overview
+This Python script demonstrates the use of the `str.strip()` method to remove leading and trailing whitespace from strings in a list. It's a convenient utility for cleaning up text data.
+
+## Features
+- Accepts a list of strings with potential leading or trailing whitespace.
+- Returns a list of cleaned strings where the whitespace has been removed.
+
+## Usage
+1. Provide a list of strings to the `strip_whitespace` function.
+2. Run the script to see the cleaned strings without leading or trailing whitespace.
+
+### Example Input
+```python
+["  hello world  ", "  python programming ", " strip method example ", "    clean spaces    "]                          
