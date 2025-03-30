@@ -1,5 +1,3 @@
-
-
 # Example usage
 if __name__ == "__main__":
     original_string = "HELLO, WORLD!"

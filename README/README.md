@@ -260,3 +260,69 @@ This Python script demonstrates the use of the `str.strip()` method to remove le
 ### Example Input
 ```python
 ["  hello world  ", "  python programming ", " strip method example ", "    clean spaces    "]                          
+
+     
+               
+                        for str.lstrip method
+
+## Overview
+This Python script demonstrates the use of the `str.lstrip()` method to remove leading whitespace from strings in a list. It is a convenient tool for cleaning up text data efficiently.
+
+## Features
+- Accepts a list of strings with potential leading whitespace.
+- Returns a list of cleaned strings where the leading whitespace has been removed.
+
+## Usage
+1. Provide a list of strings to the `lstrip_whitespace` function.
+2. Run the script to see the cleaned strings without leading whitespace.
+
+### Example Input
+```python
+["  hello world", "   python programming", "  lstrip method example", "   clean spaces"]
+     Input strings: ["  hello world", "   python programming", "  lstrip method example", "   clean spaces"]
+Strings after removing leading whitespace: ["hello world", "python programming", "lstrip method example", "clean spaces"]
+        
+
+
+                       
+                          for str.rstrip method
+
+## Overview
+This Python script demonstrates the use of the `str.rstrip()` method to remove trailing whitespace from strings in a list. It's a helpful utility for cleaning up text data efficiently.
+
+## Features
+- Accepts a list of strings with potential trailing whitespace.
+- Returns a list of cleaned strings where the trailing whitespace has been removed.
+
+## Usage
+1. Provide a list of strings to the `rstrip_whitespace` function.
+2. Run the script to see the cleaned strings without trailing whitespace.
+
+### Example Input
+```python
+["hello world   ", "  python programming   ", "rstrip method example   ", "clean spaces    "]
+Input strings: ["hello world   ", "  python programming   ", "rstrip method example   ", "clean spaces    "]
+Strings after removing trailing whitespace: ["hello world", "  python programming", "rstrip method example", "clean spaces"]
+
+
+                             
+                             for str.split method
+
+## Overview
+This Python script demonstrates the use of the `str.split()` method to break strings into substrings based on a specified delimiter. It's a simple and effective tool for processing text data.
+
+## Features
+- Accepts a list of strings and a delimiter.
+- Splits each string into substrings based on the given delimiter.
+- Returns a list of lists containing the substrings.
+
+## Usage
+1. Provide a list of strings and a delimiter to the `split_strings` function.
+2. Run the script to see the results of the splitting operation.
+
+### Example Input
+```python
+["apple,banana,cherry", "dog,cat,bird", "red;green;blue"]
+Delimiter: ","
+Input strings: ["apple,banana,cherry", "dog,cat,bird", "red;green;blue"]
+Strings after splitting by ',': [["apple", "banana", "cherry"], ["dog", "cat", "bird"], ["red;green;blue"]]
