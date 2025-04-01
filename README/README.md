@@ -405,3 +405,72 @@ print(f"Is '{string1}' numeric? {result1}")  # Output: Is '12345' numeric? True
 string2 = "123abc"
 result2 = is_numeric(string2)
 print(f"Is '{string2}' numeric? {result2}")  # Output: Is '123abc' numeric? False
+ 
+
+
+                          for str.isalnum method
+
+## Overview
+This Python script demonstrates the use of the `str.isalnum()` method to verify if a string consists of alphanumeric characters. The script processes a list of strings and outputs a corresponding list of boolean values indicating the result.
+
+## Features
+- Accepts a list of strings.
+- Uses the `str.isalnum()` method to check if each string contains only alphanumeric characters (letters and digits).
+- Returns a list of boolean values.
+
+## Usage
+1. Provide a list of strings to the `check_isalnum` function.
+2. Run the script to see the results indicating whether each string is alphanumeric.
+
+### Example Input
+```python
+["hello123", "python!", "2023", "hello world", "ValidString"]
+Input strings: ["hello123", "python!", "2023", "hello world", "ValidString"]
+Is alphanumeric: [True, False, True, False, True]
+
+
+                         
+                           for str.isspace method
+
+## Overview
+This Python script demonstrates the use of the `str.isspace()` method to check if a string consists entirely of whitespace characters. The script processes a list of strings and outputs a list of boolean values indicating the results.
+
+## Features
+- Accepts a list of strings as input.
+- Uses the `str.isspace()` method to check if each string contains only whitespace characters.
+- Returns a list of boolean values.
+
+## Usage
+1. Provide a list of strings to the `check_isspace` function.
+2. Run the script to determine which strings contain only whitespace.
+
+### Example Input
+```python
+["   ", "hello world", "\t\n", "   text   ", ""]
+Input strings: ["   ", "hello world", "\t\n", "   text   ", ""]
+Is only whitespace: [True, False, True, False, False]
+
+
+                  
+                      for str.format method
+
+## Overview
+This Python script demonstrates the use of the `str.format()` method to create readable and structured strings by inserting dynamic values. It formats names and scores into a readable format, making it an essential tool for formatting output in Python programs.
+
+## Features
+- Takes two lists as input: one containing names and another containing scores.
+- Uses the `str.format()` method to dynamically insert values into a string.
+- Outputs a list of formatted strings.
+
+## Usage
+1. Provide two lists: one for names and one for scores.
+2. Run the script to generate formatted strings displaying the name and score of each individual.
+
+### Example Input
+```python
+names = ["Alice", "Bob", "Charlie"]
+scores = [85, 92, 78]
+Formatted Output:
+Name: Alice, Score: 85
+Name: Bob, Score: 92
+Name: Charlie, Score: 78
