@@ -474,3 +474,73 @@ Formatted Output:
 Name: Alice, Score: 85
 Name: Bob, Score: 92
 Name: Charlie, Score: 78
+
+
+
+                            for f-strings method
+
+## Overview
+This Python script demonstrates the use of Python's f-strings to format strings dynamically. F-strings were introduced in Python 3.6 and provide a clean, efficient way to insert variables into strings, making your code more readable and concise.
+
+## Features
+- Accepts two lists as input: one containing names and another containing scores.
+- Uses f-strings to format the output dynamically.
+- Outputs a list of formatted strings showing the name and score of each individual.
+
+## Usage
+1. Provide two lists: one for names and one for scores.
+2. Run the script to generate formatted strings using f-strings.
+
+### Example Input
+```python
+names = ["Alice", "Bob", "Charlie"]
+scores = [95, 88, 76]
+
+
+
+                             for len method
+
+## Overview
+This Python script demonstrates the use of the built-in `len()` method to calculate the length of strings. The script processes a list of strings and outputs their lengths.
+
+## Features
+- Accepts a list of strings as input.
+- Uses the `len()` method to compute the length of each string.
+- Handles strings of any length, including empty strings.
+- Outputs a list of lengths corresponding to each input string.
+
+## Usage
+1. Provide a list of strings to the `get_lengths` function.
+2. Run the script to calculate and view the lengths of the strings.
+
+### Example Input
+```python
+["hello", "world", "Python", "length", ""]
+Input strings: ["hello", "world", "Python", "length", ""]
+Lengths of strings: [5, 5, 6, 6, 0]
+
+
+
+     
+                           for str.encode method
+
+# Python Script: Encode Strings Using `str.encode()`
+
+## Overview
+This Python script demonstrates the use of the `str.encode()` method to convert strings into byte strings using a specified encoding format. By default, it uses UTF-8 encoding.
+
+## Features
+- Accepts a list of strings as input.
+- Encodes each string into a byte string using the `str.encode()` method.
+- Supports specifying different encoding formats (e.g., UTF-8, ASCII).
+
+## Usage
+1. Provide a list of strings to the `encode_strings` function.
+2. Optionally specify the encoding format (default is UTF-8).
+3. Run the script to encode the strings into byte strings.
+
+### Example Input
+```python
+["hello", "world", "Python", "encode", "😊"]
+Input strings: ["hello", "world", "Python", "encode", "😊"]
+Encoded byte strings: [b'hello', b'world', b'Python', b'encode', b'\xf0\x9f\x98\x8a']
