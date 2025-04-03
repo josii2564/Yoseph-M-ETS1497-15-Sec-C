@@ -524,8 +524,6 @@ Lengths of strings: [5, 5, 6, 6, 0]
      
                            for str.encode method
 
-# Python Script: Encode Strings Using `str.encode()`
-
 ## Overview
 This Python script demonstrates the use of the `str.encode()` method to convert strings into byte strings using a specified encoding format. By default, it uses UTF-8 encoding.
 
@@ -544,3 +542,47 @@ This Python script demonstrates the use of the `str.encode()` method to convert 
 ["hello", "world", "Python", "encode", "😊"]
 Input strings: ["hello", "world", "Python", "encode", "😊"]
 Encoded byte strings: [b'hello', b'world', b'Python', b'encode', b'\xf0\x9f\x98\x8a']
+
+
+
+                         for str.islower method
+
+## Overview
+This Python script demonstrates the use of the `str.islower()` method to check whether a string contains only lowercase letters. It processes a list of strings and outputs a corresponding list of boolean values.
+
+## Features
+- Accepts a list of strings as input.
+- Uses the `str.islower()` method to check if each string is entirely lowercase.
+- Returns a list of boolean values (True or False).
+
+## Usage
+1. Provide a list of strings to the `check_islower` function.
+2. Run the script to see which strings are in all lowercase.
+
+### Example Input
+```python
+["hello", "WORLD", "python3", "lowercase", "MixedCase"]
+Input strings: ["hello", "WORLD", "python3", "lowercase", "MixedCase"]
+Are all characters lowercase: [True, False, False, True, False]
+
+      
+
+                        for str.isupper method`
+
+## Overview
+This Python script demonstrates the use of the `str.isupper()` method to check whether a string contains only uppercase letters. It processes a list of strings and outputs a corresponding list of boolean values.
+
+## Features
+- Accepts a list of strings as input.
+- Uses the `str.isupper()` method to check if each string is entirely uppercase.
+- Returns a list of boolean values (True or False).
+
+## Usage
+1. Provide a list of strings to the `check_isupper` function.
+2. Run the script to see which strings are in all uppercase.
+
+### Example Input
+```python
+["HELLO", "World", "PYTHON", "UPPERCASE", "lowercase"]
+Input strings: ["HELLO", "World", "PYTHON", "UPPERCASE", "lowercase"]
+Are all characters uppercase: [True, False, True, True, False]
