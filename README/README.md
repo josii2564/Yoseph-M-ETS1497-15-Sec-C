@@ -586,3 +586,156 @@ This Python script demonstrates the use of the `str.isupper()` method to check w
 ["HELLO", "World", "PYTHON", "UPPERCASE", "lowercase"]
 Input strings: ["HELLO", "World", "PYTHON", "UPPERCASE", "lowercase"]
 Are all characters uppercase: [True, False, True, True, False]
+
+
+
+                
+                          for list-append() method
+
+## Overview
+This Python script demonstrates how to use the `append()` method to add elements to the end of a list. The `append()` method is a simple and effective way to dynamically expand a list.
+
+## Features
+- Accepts an existing list and a list of new elements to append.
+- Uses the `append()` method to add each new element to the existing list.
+- Returns the updated list after appending all elements.
+
+## Usage
+1. Provide an existing list and a list of elements to append.
+2. Run the script to append the new elements to the existing list.
+
+### Example Input
+```python
+Original list: ["apple", "banana", "cherry"]
+Elements to append: ["date", "elderberry", "fig"]
+Original list: ["apple", "banana", "cherry"]
+Elements to append: ["date", "elderberry", "fig"]
+Updated list: ["apple", "banana", "cherry", "date", "elderberry", "fig"]
+
+
+
+                           for list-insert() method
+
+## Overview
+This Python script demonstrates how to use the `insert()` method to add elements at specific positions in a list. The `insert()` method provides an easy way to dynamically modify the structure of lists.
+
+## Features
+- Accepts an existing list, an index, and an element.
+- Uses the `insert()` method to add the element at the specified index.
+- Returns the updated list after insertion.
+
+## Usage
+1. Provide an existing list, the index where the element should be inserted, and the element itself.
+2. Run the script to insert the element into the list.
+
+### Example Input
+```python
+Original list: ["apple", "banana", "cherry"]
+Index to insert: 1
+Element to insert: "orange"
+Original list: ["apple", "banana", "cherry"]
+Inserting 'orange' at index 1:
+Updated list: ["apple", "orange", "banana", "cherry"]
+
+
+
+                           for list-remove() method
+
+## Overview
+This Python script demonstrates how to use the `remove()` method to eliminate the first occurrence of a specified element from a list. The `remove()` method is an efficient way to modify lists dynamically.
+
+## Features
+- Accepts an existing list and an element to remove.
+- Uses the `remove()` method to eliminate the element.
+- Handles cases where the element is not found in the list.
+
+## Usage
+1. Provide an existing list and the element you want to remove.
+2. Run the script to remove the specified element from the list.
+
+### Example Input
+```python
+Original list: ["apple", "banana", "cherry", "apple"]
+Element to remove: "apple"
+Original list: ["apple", "banana", "cherry", "apple"]
+Removing 'apple' from the list:
+Updated list: ["banana", "cherry", "apple"]
+
+
+
+                              for list-pop() method
+
+## Overview
+This Python script showcases the functionality of the `pop()` method, which allows you to remove an element from a list by specifying its index or defaulting to the last element. The method also returns the removed element, providing a way to retrieve and process it.
+
+## Features
+- Removes an element at a specified index from the list using the `pop()` method.
+- Removes the last element if no index is provided.
+- Returns the removed element.
+- Handles cases where the index is out of range.
+
+## Usage
+1. Provide an existing list and optionally an index for the element to remove.
+2. Run the script to remove and retrieve the specified or last element from the list.
+
+### Example Input
+```python
+Original list: ["apple", "banana", "cherry", "date"]
+Index to remove: 2
+Original list: ["apple", "banana", "cherry", "date"]
+Removed element at index 2: cherry
+Updated list: ["apple", "banana", "date"]
+Removed last element: date
+Updated list: ["apple", "banana"]
+
+                         
+
+                         for list-len() method
+
+## Overview
+This Python script demonstrates how to use the built-in `len()` method to calculate the number of elements in a list. The `len()` method is a fundamental tool for working with lists and other data structures in Python.
+
+## Features
+- Accepts a list as input.
+- Uses the `len()` method to calculate the number of elements in the list.
+- Outputs the length of the list.
+
+## Usage
+1. Provide a list as input to the `get_list_length` function.
+2. Run the script to calculate and display the length of the list.
+
+### Example Input
+```python
+["apple", "banana", "cherry", "date"]
+List: ["apple", "banana", "cherry", "date"]
+Length of the list: 4
+
+
+                            
+                            for list-sort() method
+
+## Overview
+This Python script demonstrates the use of the built-in `sort()` method to sort lists. It allows sorting in both ascending (default) and descending order by setting the `reverse` parameter.
+
+## Features
+- Sorts a list of numbers or strings in ascending order.
+- Can also sort in descending order by setting the `reverse` parameter to `True`.
+- Keeps the original list intact by working on a copy.
+
+## Usage
+1. Provide a list to be sorted.
+2. Call the `sort_list()` function, optionally setting `reverse=True` for descending order.
+3. View the sorted results.
+
+### Example Input
+```python
+numbers = [5, 2, 9, 1, 5, 6]
+fruits = ["banana", "apple", "cherry", "date"]
+Original numbers: [5, 2, 9, 1, 5, 6]
+Numbers sorted in ascending order: [1, 2, 5, 5, 6, 9]
+Numbers sorted in descending order: [9, 6, 5, 5, 2, 1]
+
+Original fruits: ["banana", "apple", "cherry", "date"]
+Fruits sorted in ascending order: ["apple", "banana", "cherry", "date"]
+Fruits sorted in descending order: ["date", "cherry", "banana", "apple"]
+                
