@@ -821,3 +821,86 @@ Value to find: 4
 Tuple: (1, 2, 3, 1, 4, 1, 5, 6, 1)
 Value to find: 4
 Index of the first occurrence of 4: 4
+
+
+
+                          for set-add() method
+
+## Overview
+This Python script demonstrates how to use the `add()` method to add elements to a set. Sets are unordered collections of unique elements, and the `add()` method efficiently adds elements while preserving the uniqueness property.
+
+## Features
+- Adds a single element to the set using the `add()` method.
+- Handles duplicate elements gracefully (duplicates are ignored in sets).
+- Returns and displays the updated set.
+
+## Usage
+1. Define a set and an element to add.
+2. Call the `add_to_set()` function with the set and element as arguments.
+3. Run the script to view the updated set.
+
+### Example Input
+```python
+Original set: {1, 2, 3}
+Element to add: 4
+Original set: {1, 2, 3}
+Adding '4' to the set:
+Updated set: {1, 2, 3, 4}
+
+Adding duplicate element '2' to the set:
+Updated set: {1, 2, 3, 4}
+
+
+
+                              for set-remove() method
+
+## Overview
+This Python script demonstrates how to use the `remove()` method to delete specific elements from a set. Sets are unordered collections of unique elements, and the `remove()` method enables efficient removal of items.
+
+## Features
+- Removes a specified element from the set.
+- Handles cases where the element does not exist, displaying an error message.
+- Modifies the original set directly.
+
+## Usage
+1. Define a set and specify the element to remove.
+2. Call the `remove_from_set()` function with the set and element as arguments.
+3. Run the script to view the updated set and handle missing elements gracefully.
+
+### Example Input
+```python
+Original set: {1, 2, 3, 4, 5}
+Element to remove: 3
+Original set: {1, 2, 3, 4, 5}
+Element '3' removed successfully.
+Updated set after removal: {1, 2, 4, 5}
+
+Error: Element '6' not found in the set.
+Updated set after trying to remove a non-existent element: {1, 2, 4, 5}
+
+
+
+                      for set-union() method
+
+# Python Script: Union of Sets Using the `union()` Method
+
+## Overview
+This Python script showcases the use of the `union()` method to combine two sets into a single set containing all unique elements. The union operation is a fundamental feature of Python sets.
+
+## Features
+- Combines two sets and returns all unique elements.
+- Handles sets with overlapping elements by ensuring no duplicates appear in the result.
+- Demonstrates set operations in a clear and concise manner.
+
+## Usage
+1. Define two sets to perform the union operation.
+2. Call the `union_of_sets()` function with the two sets as arguments.
+3. Run the script to view the union of the sets.
+
+### Example Input
+```python
+Set A: {1, 2, 3, 4}
+Set B: {3, 4, 5, 6}
+Set A: {1, 2, 3, 4}
+Set B: {3, 4, 5, 6}
+Union of Set A and Set B: {1, 2, 3, 4, 5, 6}
