@@ -880,9 +880,7 @@ Updated set after trying to remove a non-existent element: {1, 2, 4, 5}
 
 
 
-                      for set-union() method
-
-# Python Script: Union of Sets Using the `union()` Method
+                           for set-union() method
 
 ## Overview
 This Python script showcases the use of the `union()` method to combine two sets into a single set containing all unique elements. The union operation is a fundamental feature of Python sets.
@@ -904,3 +902,78 @@ Set B: {3, 4, 5, 6}
 Set A: {1, 2, 3, 4}
 Set B: {3, 4, 5, 6}
 Union of Set A and Set B: {1, 2, 3, 4, 5, 6}
+
+
+
+                               for set-intersection() method
+
+## Overview
+This Python script demonstrates the use of the `intersection()` method to find elements that are common to two sets. The intersection operation is a fundamental feature of Python sets.
+
+## Features
+- Identifies and returns common elements from two sets.
+- Handles sets with overlapping and non-overlapping elements efficiently.
+- Demonstrates set operations in a clear and concise manner.
+
+## Usage
+1. Define two sets to perform the intersection operation.
+2. Call the `intersection_of_sets()` function with the two sets as arguments.
+3. Run the script to view the elements that are common to both sets.
+
+### Example Input
+```python
+Set A: {1, 2, 3, 4, 5}
+Set B: {4, 5, 6, 7, 8}
+Set A: {1, 2, 3, 4, 5}
+Set B: {4, 5, 6, 7, 8}
+Intersection of Set A and Set B: {4, 5}
+
+
+
+                       for set-difference() method
+
+## Overview
+This Python script demonstrates how to use the `difference()` method to compute the difference between two sets. The method returns a set containing elements that are present in the first set but not in the second set.
+
+## Features
+- Computes the difference of two sets, preserving only elements unique to the first set.
+- Handles overlapping and non-overlapping sets.
+- Demonstrates set operations in a simple and efficient way.
+
+## Usage
+1. Define two sets to perform the difference operation.
+2. Call the `difference_of_sets()` function with the two sets as arguments.
+3. Run the script to view the elements unique to the first set.
+
+### Example Input
+```python
+Set A: {1, 2, 3, 4, 5}
+Set B: {4, 5, 6, 7, 8}
+Set A: {1, 2, 3, 4, 5}
+Set B: {4, 5, 6, 7, 8}
+Difference of Set A and Set B (A - B): {1, 2, 3}
+
+
+
+                           for set-symmetric_difference() method
+
+## Overview
+This Python script demonstrates how to use the `symmetric_difference()` method to compute the symmetric difference between two sets. The symmetric difference operation returns elements that are in either of the two sets but not in both.
+
+## Features
+- Computes the symmetric difference between two sets.
+- Returns a set containing all elements that are unique to each set.
+- Handles overlapping and non-overlapping sets efficiently.
+
+## Usage
+1. Define two sets to perform the symmetric difference operation.
+2. Call the `symmetric_difference_of_sets()` function with the two sets as arguments.
+3. Run the script to view the elements unique to each set.
+
+### Example Input
+```python
+Set A: {1, 2, 3, 4, 5}
+Set B: {4, 5, 6, 7, 8}
+Set A: {1, 2, 3, 4, 5}
+Set B: {4, 5, 6, 7, 8}
+Symmetric Difference of Set A and Set B: {1, 2, 3, 6, 7, 8}
