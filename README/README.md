@@ -977,3 +977,74 @@ Set B: {4, 5, 6, 7, 8}
 Set A: {1, 2, 3, 4, 5}
 Set B: {4, 5, 6, 7, 8}
 Symmetric Difference of Set A and Set B: {1, 2, 3, 6, 7, 8}
+
+
+
+
+                          for dictionary-keys() method
+
+## Overview
+This Python script demonstrates how to use the built-in `keys()` method to retrieve all keys from a dictionary. The method returns a view object containing the keys, which can be converted into a list for easy access.
+
+## Features
+- Extracts all keys from a dictionary.
+- Converts the keys view object into a list for better usability.
+- Works with dictionaries of any size or data type.
+
+## Usage
+1. Define a dictionary containing key-value pairs.
+2. Call the `get_dictionary_keys()` function with the dictionary as an argument.
+3. Run the script to display all keys in the dictionary.
+
+### Example Input
+```python
+Dictionary: {"name": "Alice", "age": 25, "city": "New York"}
+Dictionary: {'name': 'Alice', 'age': 25, 'city': 'New York'}
+Keys in the dictionary: ['name', 'age', 'city']
+
+
+
+                            for dictionary- values() method
+
+## Overview
+This Python script demonstrates how to use the built-in `values()` method to retrieve all values from a dictionary. The method returns a view object containing the values, which can be converted into a list for easy access.
+
+## Features
+- Extracts all values from a dictionary.
+- Converts the values view object into a list for better usability.
+- Works with dictionaries of any size or data type.
+
+## Usage
+1. Define a dictionary containing key-value pairs.
+2. Call the `get_dictionary_values()` function with the dictionary as an argument.
+3. Run the script to display all values in the dictionary.
+
+### Example Input
+```python
+Dictionary: {"name": "Alice", "age": 25, "city": "New York"}
+Dictionary: {'name': 'Alice', 'age': 25, 'city': 'New York'}
+Values in the dictionary: ['Alice', 25, 'New York']
+
+
+
+                           for dictionary- items() method
+
+## Overview
+This Python script demonstrates how to use the built-in `items()` method to retrieve all key-value pairs from a dictionary. The method returns a view object containing tuples of key-value pairs, which can be converted into a list for easy access.
+
+## Features
+- Extracts all key-value pairs from a dictionary.
+- Converts the items view object into a list for better usability.
+- Works with dictionaries of any size or data type.
+
+## Usage
+1. Define a dictionary containing key-value pairs.
+2. Call the `get_dictionary_items()` function with the dictionary as an argument.
+3. Run the script to display all key-value pairs in the dictionary.
+
+### Example Input
+```python
+Dictionary: {"name": "Alice", "age": 25, "city": "New York"}
+Dictionary: {'name': 'Alice', 'age': 25, 'city': 'New York'}
+Key-value pairs in the dictionary: [('name', 'Alice'), ('age', 25), ('city', 'New York')]
+
