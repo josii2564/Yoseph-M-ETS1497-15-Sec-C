@@ -1048,3 +1048,60 @@ Dictionary: {"name": "Alice", "age": 25, "city": "New York"}
 Dictionary: {'name': 'Alice', 'age': 25, 'city': 'New York'}
 Key-value pairs in the dictionary: [('name', 'Alice'), ('age', 25), ('city', 'New York')]
 
+
+
+                         for dictionary- get() method
+
+## Overview
+This Python script demonstrates how to use the built-in `get()` method to safely retrieve values from a dictionary. The `get()` method prevents errors by allowing the use of a default value when a key is missing.
+
+## Features
+- Retrieves values from a dictionary using the `get()` method.
+- Allows specifying a default value when the key is not found.
+- Works efficiently with dictionaries of any size or data type.
+
+## Usage
+1. Define a dictionary containing key-value pairs.
+2. Call the `get_value_from_dict()` function with the dictionary and the key you want to retrieve.
+3. Optionally, specify a default value for missing keys.
+4. Run the script to display retrieved values.
+
+### Example Input
+```python
+Dictionary: {"name": "Alice", "age": 25, "city": "New York"}
+Key to find: "age"
+Missing key with default: "country"
+Dictionary: {'name': 'Alice', 'age': 25, 'city': 'New York'}
+Value for key 'age': 25
+Value for missing key 'country': Unknown
+
+
+
+                            for dictionary- pop() method
+
+## Overview
+This Python script demonstrates how to use the built-in `pop()` method to remove key-value pairs from a dictionary. The method allows retrieving the value associated with a key before removing it and provides an optional default return value for missing keys.
+
+## Features
+- Removes a specified key from a dictionary.
+- Returns the corresponding value of the removed key.
+- Allows specifying a default value when the key does not exist.
+- Works efficiently with dictionaries of any size or data type.
+
+## Usage
+1. Define a dictionary containing key-value pairs.
+2. Call the `pop_key_from_dict()` function with the dictionary and the key to remove.
+3. Optionally, specify a default return value for missing keys.
+4. Run the script to display the updated dictionary.
+
+### Example Input
+```python
+Dictionary: {"name": "Alice", "age": 25, "city": "New York"}
+Key to remove: "age"
+Missing key with default: "country"
+Dictionary before removal: {'name': 'Alice', 'age': 25, 'city': 'New York'}
+Removed key 'age', value: 25
+Updated dictionary: {'name': 'Alice', 'city': 'New York'}
+
+Attempting to remove 'country', returned value: Unknown
+Final dictionary state: {'name': 'Alice', 'city': 'New York'}
